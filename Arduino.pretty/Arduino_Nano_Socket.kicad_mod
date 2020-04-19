@@ -1,4 +1,4 @@
-(module Arduino_Nano_Socket (layer F.Cu) (tedit 5A860395)
+(module Arduino_Nano_Socket (layer F.Cu) (tedit 5E9C1608)
   (descr https://store.arduino.cc/arduino-nano)
   (fp_text reference XA** (at 6.604 1.016) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -68,4 +68,9 @@
   (pad "" np_thru_hole circle (at 7.62 -41.91) (size 1.85 1.85) (drill 1.85) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -7.62 -1.27) (size 1.85 1.85) (drill 1.85) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 7.62 -1.27) (size 1.85 1.85) (drill 1.85) (layers *.Cu *.Mask))
+  (model ${KIUSR3DMOD}/Arduino.3dshapes/Arduino_Nano.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
